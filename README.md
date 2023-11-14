@@ -24,7 +24,7 @@ if (Problems > me.countProblemsMax) {
 } else {
   Problem = me.getProblems();
   for (int problem;problem <= Problems;problem++) {
-     Problem [problem].AttemptResolve();
+     Problem [problem].attemptResolve();
   }
 }
 
